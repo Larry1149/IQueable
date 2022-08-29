@@ -3,8 +3,6 @@ import java.util.List;
 public class IQueable {
     public List<String> queueList;
 
-    public IQueable(){}
-
     //add value
     public List<String> enqueue(String value){
         queueList.add(value);
