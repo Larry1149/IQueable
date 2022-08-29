@@ -7,12 +7,12 @@ public class Main {
         queue.queueList = new ArrayList<>();
 
         for(int i = 1 ; i <= 5 ;i++){
-            System.out.println("add value : "+queue.enqueue(Integer.toString(i)));
+            System.out.println("add value "+i+" to queue = "+queue.enqueue(Integer.toString(i)));
 
         }
         System.out.println("removed value : " + queue.dequeue());
         System.out.println("items in the queue : " + queue.getQueue());
-        System.out.println("size of queue" + queue.size());
+        System.out.println("size of queue : " + queue.size());
 
     }
 
